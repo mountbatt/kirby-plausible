@@ -1,0 +1,22 @@
+{
+    "name": "mountbatt/kirby-plausible",
+    "description": "Plausible plugin for Kirby CMS inspired by Florian Karsten",
+    "type": "kirby-plugin",
+	"version": "0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tobias Battenberg",
+            "email": "mountbatt@gmail.com"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1",
+		"getkirby/cms": "^3.6.0"
+    },
+    "autoload": {
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
