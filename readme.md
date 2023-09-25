@@ -13,10 +13,10 @@ config.php example
 	'sharedLink' => 'https://plausible.io/share/yourwebsiteurl.com?auth=Jz0mCWTPu5opXi0sAgRrq',
 	'plausibleURL' => 'https://plausible.io/js/plausible.js', // not required, but you can enter your own instance of plausible hosting. it will use default https://plausible.io/js/plausible.js if not set
 	'domain' => 'test.com' // not required if not set it will be taken from $site->url
-];
+]
 ```
 
-Frontend snippet place iside head tag. Automatically disabled when kirby is in debug mode.
+Frontend snippet place inside head tag. Automatically disabled when kirby is in debug mode.
 ```php
 <?php snippet('plausible'); ?>
 ```
