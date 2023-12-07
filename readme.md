@@ -22,9 +22,16 @@ Frontend snippet place inside head tag. Automatically disabled when kirby is in 
 ```
 
 ## Goals
-To track also File Downloads and external Link clicks you can use this `plausibleURL`: `https://plausible.io/js/script.file-downloads.outbound-links.js`.
+To track also File Downloads and external Link clicks you can use this `plausibleURL`: 
+
+`https://plausible.io/js/script.file-downloads.outbound-links.js`
+
 Then you can define 2 goals in your "Site Settings":
+
 `Outbound Link: Click`
+
 `File Download`
+
+<hr>
 
 Thanks to Florian Karsten for inspiration!
