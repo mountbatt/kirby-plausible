@@ -1,5 +1,4 @@
 <?php
-
 Kirby::plugin('mountbatt/plausible', [
 	'areas' => [
 		'plausible' => function ($kirby) {
@@ -17,7 +16,8 @@ Kirby::plugin('mountbatt/plausible', [
 								'component' => 'k-plausible-view',
 								'title' => 'Analytics',
 								'props' => [
-									'sharedLink' => option('mountbatt.plausible.sharedLink')
+									'sharedLink' => option('mountbatt.plausible.sharedLink'),
+									'scriptJsURL' => option('mountbatt.plausible.scriptJsURL')
 								],
 							];
 						}
